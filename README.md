@@ -1,1 +1,2 @@
-# Meetup.DockerFIle
+# Sorocaba.Dockerfile
+Este é um grupo para os interessados ​​em docker, Kubernetes, DevOps e Novas tecnologias. Todos os níveis de competências são bem-vindos. Eu comecei este grupo para conhecer outros entusiastas das novas tecnologias.  Ansioso para explorar e aprender novas ferramentas com todos.  O Grupos está em fases de concebimentos, aceito ajudas, apoios, speakers...  Venha me ajudar nessa jogada, Sorocaba precisa de eventos como esse!
