@@ -1,6 +1,8 @@
-# Meetup Docker & Companhia
+# [Meetup Docker & Companhia](https://docker-sorocaba.github.io/Meetup.DockerFIle/)
 
 ![Imagem com informações principais do meetup Docker & Companhia. Data: em dezembro. Local: Cidade Universitária. Meetup Sorocaba. Docker & Companhia. Informações pelo telefone com Marcos (15) 98808-2972](img/main_publi.png "Imagem com informações principais do meetup Docker & Companhia.")
+
+[Link da página principal de divulgação do Meetup](https://docker-sorocaba.github.io/Meetup.DockerFIle/)
 
 Este é um grupo para os interessados ​​em Docker, Kubernetes, DevOps e novas tecnologias. Todos os níveis de competências são bem-vindos.
 
