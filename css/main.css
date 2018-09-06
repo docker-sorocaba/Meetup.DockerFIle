@@ -67,6 +67,9 @@ article:last-child {
 
 #main-title {
     margin-top: 2em;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-direction: row !important;
 }
 
 #main-info h2 {
@@ -122,7 +125,7 @@ article:last-child {
 }
 
 .fa-responsive {
-    font-size: 10em;
+    font-size: 5em;
 }
 
 #mapa {
@@ -132,6 +135,18 @@ article:last-child {
 
 .footer div {
     justify-content: space-around;
+}
+
+#whale-icon {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+#main-publi {
+    /*width: 50%;
+    max-width: 700px;*/
+    height: auto;
 }
 
 @media(max-width: 768px) {
@@ -162,10 +177,6 @@ article:last-child {
         font-size: 2.5em;
     }
 
-    .fa-responsive {
-        font-size: 5em;
-    }
-
     .display-4 {
         font-size: 2rem;
     }
@@ -181,5 +192,11 @@ article:last-child {
 
     #local {
         margin-bottom: 0 !important;
+    }
+
+    #main-title {
+        align-items: center !important;
+        justify-content: center !important;
+        flex-direction: column !important;
     }
 }

@@ -6,6 +6,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- Icon -->
+    <link rel="icon" href="img/whale_icon.png">
+
     <!-- Bootstrap CSS v4.1 -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
@@ -27,7 +30,8 @@
 </head>
 
 <body class="bg-light">
-    <div id="main-title" class="text-center">
+    <div id="main-title" class="text-center d-flex">
+        <img id="whale-icon" src="img/container_whale.png" alt="Ilustração de uma baleia azul feliz com containers em cima" />
         <h1 class="display-1">Docker & Companhia</h1>
     </div>
 
@@ -38,7 +42,7 @@
                 <div class="flex-sm-wrap px-2">
                     <a href="#agenda">
                         <h2 class="text-uppercase">Data</h2>
-                        <p class="">Em Dezembro</p>
+                        <p class="">01/12/2018</p>
                     </a>
                 </div>
 
@@ -60,9 +64,9 @@
                 Atenção
             </div>
             <div class="card-body">
-                <h5 class="card-title">Inscrições Abertas para Palestrantes!</h5>
+                <h5 class="card-title">Inscrições para Palestrantes em breve!</h5>
                 <p class="card-text">Interessad@ em compartilhar seus conhecimentos com a galera?</p>
-                <a href="https://github.com/Rehzende/Sorocaba.Dockerfile" target="_blank" class="btn btn-success">Inscreva-se</a>
+                <a href="https://github.com/docker-sorocaba/Meetup.DockerFIle" target="_blank" class="btn btn-success">Inscreva-se</a>
             </div>
         </div>
 
@@ -74,18 +78,24 @@
         <div class="container">
             <h3 class="display-3">Vem aí a 1ª meetup de <span class="docker-txt-emp">Docker</span> em Sorocaba!</h3>
             <p class="lead">Agora, perto de você, a oportunidade de saber mais sobre o que está rolando no mundo DevOps
-                e
-                bater um papo com pessoas que entendem do assunto.</p>
+                e bater um papo com pessoas que entendem do assunto.</p>
 
-            <div class="d-flex flex-wrap flex-row justify-content-around align-items-center text-center py-3">
-                <div class="d-flex flex-wrap flex-column">
-                    <a href="" class="link-fontawe-icon">
-                        <h4>Meetup</h4>
-                        <i class="fab fa-responsive fa-meetup" aria-label="meetup"></i>
-                    </a>
+            <div class="card text-white bg-primary w-50 mx-auto text-center">
+                <div class="card-header">
+                    <h4>Evento Gratuito</h4>
                 </div>
-                <div class="d-flex flex-wrap flex-column">
-                    <a href="https://github.com/Rehzende/Sorocaba.Dockerfile" class="link-fontawe-icon">
+                <div class="card-body">
+                    <h4 class="card-text"><strong>Data:</strong> 01/12/2018 (Sábado)</h4>
+                    <h4 class="card-text"><strong>Horário:</strong> 9h às 12h</h4>
+                </div>
+            </div>
+
+            <div class="d-flex flex-wrap flex-column justify-content-around align-items-center text-center py-3">
+                <div class="d-flex flex-wrap flex-column p-2">
+                    <img id="main-publi" class="w-50 mx-auto" src="img/main_publi.png" alt="Imagem com informações principais do meetup Docker & Companhia. Data: em dezembro. Local: Cidade Universitária. Meetup Sorocaba. Docker & Companhia. Informações pelo telefone com Marcos (15) 98808-2972" />
+                </div>
+                <div class="d-flex flex-wrap flex-column p-2">
+                    <a href="https://github.com/docker-sorocaba/Meetup.DockerFIle" class="link-fontawe-icon">
                         <h4>Github</h4>
                         <i class="fab fa-responsive fa-github" aria-label="github"></i>
                     </a>
@@ -94,7 +104,8 @@
 
             <p>Abraçamos o desafio de montar uma meetup em Sorocaba sobre <span class="docker-txt-emp">Docker</span>,
                 Kubernetes
-                e novas ferramentas. <a href="https://github.com/Rehzende/Sorocaba.Dockerfile" target="_blank">Todas as
+                e novas ferramentas. <a href="https://github.com/docker-sorocaba/Meetup.DockerFIle" target="_blank">Todas
+                    as
                     contribuições
                     serão bem vindas.</a> <i class="far fa-smile-wink"></i></p>
 
@@ -110,9 +121,10 @@
 
     <article id="agenda" class="jumbotron jumbotron-fluid">
         <div class="container">
-            <h4 class="display-4"><i class="far fa-calendar-alt"></i> Agenda</h4>
+            <h4 class="display-4"><i class="far fa-calendar-alt"></i> Agenda <span class="badge badge-primary">Em
+                    breve</span></h4>
 
-            <div class="list-group mt-5">
+            <!--div class="list-group mt-5">
                 <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
                     <div class="d-flex flex-wrap w-100 justify-content-between">
                         <h5 class="mb-1">título</h5>
@@ -137,16 +149,17 @@
                     <p class="mb-1">texto</p>
                     <small>nome do palestrante</small>
                 </a>
-            </div>
+            </div-->
         </div>
 
     </article>
 
     <article id="patrocinio" class="jumbotron jumbotron-fluid">
         <div class="container">
-            <h4 class="display-4"><i class="fas fa-bullhorn"></i> Patrocinadores</h4>
+            <h4 class="display-4"><i class="fas fa-bullhorn"></i> Patrocinadores <span class="badge badge-primary">Em
+                    breve</span></h4>
 
-            <div class="card-deck mt-5">
+            <!--div class="card-deck mt-5">
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">patrocinador</h5>
@@ -162,7 +175,7 @@
                         <h5 class="card-title">patrocinador</h5>
                     </div>
                 </div>
-            </div>
+            </div-->
         </div>
 
     </article>
@@ -172,16 +185,63 @@
 
             <h4 class="display-4"><i class="fas fa-users"></i> Organizadores</h4>
             <div class="card-deck mt-5">
-                <div class="card bg-light mb-3" style="max-width: 18rem;">
-                    <div class="card-header">
-                        <h5>Marcos Vinicius Rezende</h5>
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">Profissional de Infra TI</h5>
-                        <p class="card-text"><strong>Telefone:</strong> (15) 98808-2972</p>
-                        <p class="card-link"><a href="https://www.linkedin.com/in/marcosrehzende/" target="_blank">LinkedIn</a></p>
+                <div class="col-sm-12 col-md-4">
+                    <div class="card bg-light mb-3">
+                        <div class="card-header">
+                            <h5>Marcos Vinicius Rezende</h5>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Profissional de Infra TI</h5>
+                            <p class="card-text"><strong>Telefone:</strong> (15) 98808-2972</p>
+                            <p class="card-link"><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/marcosrehzende/"
+                                    target="_blank">marcosrehzende</a></p>
+                            <p class="card-text"><strong>Email:</strong> <a href="mailto:rehzende@hotmail.com" target="_blank">rehzende@hotmail.com</a></p>
+                        </div>
                     </div>
                 </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="card bg-light mb-3">
+                        <div class="card-header">
+                            <h5>Fernanda Aparecida Ferreira</h5>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Desenvolvedora AMEnergia</h5>
+                            <p class="card-link"><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/fernandaaparecida/"
+                                    target="_blank">fernandaaparecida</a></p>
+                            <p class="card-text"><strong>Email:</strong> <a href="mailto:ferreira.ap.fernanda@gmail.com"
+                                    target="_blank">ferreira.ap.fernanda@hotmail.com</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="card bg-light mb-3">
+                        <div class="card-header">
+                            <h5>Cristian Luis Pereira</h5>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Programador Java</h5>
+                            <p class="card-link"><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/cristianlpereira/"
+                                    target="_blank">cristianlpereira</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="card bg-light mb-3">
+                        <div class="card-header">
+                            <h5>Josiane Thaís Oliveira</h5>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Desenvolvedora Full Stack</h5>
+                            <p class="card-link"><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/josiane-tha%C3%ADs-oliveira-ba7b3415a/"
+                                    target="_blank">josiane-thaís-oliveira</a></p>
+                            <p class="card-text"><strong>Email:</strong> <a href="mailto:jts_oliveira@outlook.com"
+                                    target="_blank">jts_oliveira@outlook.com</a></p>
+                        </div>
+                    </div>
+                </div>
+
+
+
             </div>
 
         </div>
@@ -209,7 +269,7 @@
         <div class="d-flex flex-wrap">
             <span class=""><i class="fas fa-map-marker-alt"></i> Sorocaba, SP</span>
             <span class="font-weight-bold">Docker & Companhia</span>
-            <span class=""><a href="https://github.com/Rehzende/Sorocaba.Dockerfile" target="_blank"><strong>sorocaba.dockerfile</strong>@github</a></span>
+            <span class=""><a href="https://github.com/docker-sorocaba/Meetup.DockerFIle" target="_blank"><strong>sorocaba.dockerfile</strong>@github</a></span>
         </div>
     </footer>
 
