@@ -4,7 +4,7 @@
 
 Este é um grupo para os interessados ​​em Docker, Kubernetes, DevOps e novas tecnologias. Todos os níveis de competências são bem-vindos.
 
-Eu comecei este grupo para conhecer outros entusiastas das novas tecnologias.  Ansioso para explorar e aprender novas ferramentas com todos.  O Grupos está em fases de concebimentos, aceito ajudas, apoios, speakers...  
+Eu comecei este grupo para conhecer outros entusiastas das novas tecnologias.  Ansioso para explorar e aprender novas ferramentas com todos.  O grupo está em fase de concebimento, aceito ajudas, apoios, speakers...  
 
 **Venha me ajudar nessa jogada, Sorocaba precisa de eventos como esse!**
 
@@ -36,4 +36,6 @@ Caso tenha interesse. O primeiro passo é submeter um novo projeto no nosso gith
 
 ### 3. Colaborando com o custo do Coffee-Break
 
-Nossa ideia é sempre oferecer um coffee para todos os presentes como forma de interação e networking. Se quiser ajudar com o custo e/ou oferecer brindes da sua marca, mande um whats.
+Nossa ideia é sempre oferecer um coffee para todos os presentes como forma de interação e networking. Se quiser ajudar com o custo e/ou oferecer brindes da sua marca, mande um whats para **Marcos (15) 98808-2972**.
+
+![Ilustração de uma baleia azul feliz com containers em cima](img/container_whale.png)
