@@ -1,4 +1,4 @@
-# Sorocaba.Dockerfile
+# Meetup Docker & Companhia
 
 ![Imagem com informações principais do meetup Docker & Companhia. Data: em dezembro. Local: Cidade Universitária. Meetup Sorocaba. Docker & Companhia. Informações pelo telefone com Marcos (15) 98808-2972](img/main_publi.png "Imagem com informações principais do meetup Docker & Companhia.")
 
