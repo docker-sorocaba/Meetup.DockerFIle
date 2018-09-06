@@ -1,12 +1,16 @@
 # Sorocaba.Dockerfile
 
+![Imagem com informações principais do meetup Docker & Companhia. Data: em dezembro. Local: Cidade Universitária. Meetup Sorocaba. Docker & Companhia. Informações pelo telefone com Marcos (15) 98808-2972](img/main_publi.png "Imagem com informações principais do meetup Docker & Companhia.")
+
 Este é um grupo para os interessados ​​em Docker, Kubernetes, DevOps e novas tecnologias. Todos os níveis de competências são bem-vindos.
 
 Eu comecei este grupo para conhecer outros entusiastas das novas tecnologias.  Ansioso para explorar e aprender novas ferramentas com todos.  O Grupos está em fases de concebimentos, aceito ajudas, apoios, speakers...  
 
 **Venha me ajudar nessa jogada, Sorocaba precisa de eventos como esse!**
 
-## Como posso colaborar?
+[Link da página do evento no Sympla](https://www.sympla.com.br/1-meetup-docker--cia-sorocaba__355478)
+
+## Como posso colaborar ?
 
 Existem três maneiras, entre tantas outras, de nos ajudar:
 
