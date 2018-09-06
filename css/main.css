@@ -143,9 +143,12 @@ article:last-child {
     height: auto;
 }
 
+.largura-50 {
+    max-width: 700px;
+}
+
 #main-publi {
-    /*width: 50%;
-    max-width: 700px;*/
+    max-width: 700px;
     height: auto;
 }
 
@@ -153,6 +156,21 @@ article:last-child {
     .footer {
         position: relative;
         height: fit-content;
+    }
+
+    #main-title {
+        align-items: center !important;
+        justify-content: center !important;
+        flex-direction: column !important;
+    }
+
+    #main-publi {
+        width: 100%;
+        height: auto;
+    }
+
+    .largura-50 {
+        width: 100%;
     }
 }
 
@@ -192,11 +210,5 @@ article:last-child {
 
     #local {
         margin-bottom: 0 !important;
-    }
-
-    #main-title {
-        align-items: center !important;
-        justify-content: center !important;
-        flex-direction: column !important;
     }
 }
