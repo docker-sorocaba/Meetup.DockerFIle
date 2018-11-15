@@ -58,15 +58,22 @@
 
     </main>
 
-    <div id="inscricoes" class="d-flex justify-content-center">
-        <div class="card m-4 text-white text-center bg-dark-blue">
+    <div id="inscricoes" class="d-flex justify-content-center ">
+        <div class="card m-4 text-center col-md-6 col-sm-12">
             <div class="card-header font-weight-bold">
                 Atenção
             </div>
             <div class="card-body">
-                <h5 class="card-title">Inscrições para Palestrantes em breve!</h5>
-                <p class="card-text">Interessad@ em compartilhar seus conhecimentos com a galera?</p>
-                <a href="https://github.com/docker-sorocaba/Meetup.DockerFIle" target="_blank" class="btn btn-success">Inscreva-se</a>
+                <h5 class="card-title">Inscrições abertas para o evento!</h5>
+                <p class="card-text">Com as talks fechadas, as inscrições para participação estão abertas!</p>
+                <p class="card-text"><strong>Participe do evento e concorra a um livro sobre Docker, além de incríveis
+                        stickers!</strong></p>
+
+                <a href="https://www.sympla.com.br/1-meetup-docker--cia-sorocaba__355478" target="_blank" class="btn btn-primary">Inscreva-se</a>
+            </div>
+            <div class="card-footer text-muted">
+                Inscreva-se no link acima, no site Sympla, e <a href="#agenda" target="_blank">veja a nossa agenda e
+                    talks do evento</a>.
             </div>
         </div>
 
@@ -80,11 +87,12 @@
             <p class="lead">Agora, perto de você, a oportunidade de saber mais sobre o que está rolando no mundo DevOps
                 e bater um papo com pessoas que entendem do assunto.</p>
 
-            <div class="card text-white bg-primary mx-auto text-center largura-50">
+            <div class="card text-primary mx-auto text-center largura-50">
                 <div class="card-header">
                     <h4>Evento Gratuito</h4>
                 </div>
                 <div class="card-body">
+                    <p class="h5 text-dark">Participe e concorra a um livro sobre Docker!</p>
                     <h4 class="card-text"><strong>Data:</strong> 01/12/2018 (Sábado)</h4>
                     <h4 class="card-text"><strong>Horário:</strong> 9h às 12h</h4>
                 </div>
@@ -92,24 +100,23 @@
 
             <div class="d-flex flex-wrap flex-column justify-content-around align-items-center text-center py-3">
                 <div class="d-flex flex-wrap flex-column p-2 largura-50">
-                    <img id="main-publi" class="mx-auto" src="img/main_publi.png" alt="Imagem com informações principais do meetup Docker & Companhia. Data: em dezembro. Local: Cidade Universitária. Meetup Sorocaba. Docker & Companhia. Informações pelo telefone com Marcos (15) 98808-2972" />
+                    <img id="main-publi" class="mx-auto" src="img/panfleto.png" alt="Imagem com informações principais do meetup Docker & Companhia. Data: em dezembro. Local: Cidade Universitária. Meetup Sorocaba. Docker & Companhia. Informações pelo telefone com Marcos (15) 98808-2972" />
                 </div>
-                <div class="d-flex flex-wrap flex-column p-2">
-                    <a href="https://github.com/docker-sorocaba/Meetup.DockerFIle" class="link-fontawe-icon">
+                <div class="d-flex flex-wrap flex-row justify-content-around w-50">
+                    <a href="https://www.sympla.com.br/1-meetup-docker--cia-sorocaba__355478" target="_blank" class="link-fontawe-icon">
+                        <h4>Sympla</h4>
+                        <i class="fab fa-responsive fa-stripe-s" aria-label="sympla"></i>
+                    </a>
+                    <a href="https://github.com/docker-sorocaba/Meetup.DockerFIle" target="_blank" class="link-fontawe-icon">
                         <h4>Github</h4>
                         <i class="fab fa-responsive fa-github" aria-label="github"></i>
                     </a>
                 </div>
             </div>
 
-            <p>Abraçamos o desafio de montar uma meetup em Sorocaba sobre <span class="docker-txt-emp">Docker</span>,
-                Kubernetes
-                e novas ferramentas. <a href="https://github.com/docker-sorocaba/Meetup.DockerFIle" target="_blank">Todas
-                    as
-                    contribuições
-                    serão bem vindas.</a> <i class="far fa-smile-wink"></i></p>
-
             <div class="d-flex flex-wrap flex-row justify-content-around align-items-center text-center py-3">
+                <p>Abraçamos o desafio de montar uma meetup em Sorocaba sobre <span class="docker-txt-emp">Docker</span>,
+                    Kubernetes e novas ferramentas.</p>
                 <div>
                     <i class="fab fa-responsive fa-docker" aria-label="docker"></i>
                 </div>
@@ -121,45 +128,95 @@
 
     <article id="agenda" class="jumbotron jumbotron-fluid">
         <div class="container">
-            <h4 class="display-4"><i class="far fa-calendar-alt"></i> Agenda <span class="badge badge-primary">Em
-                    breve</span></h4>
+            <h4 class="display-4"><i class="far fa-calendar-alt"></i> Agenda</h4>
 
-            <!--div class="list-group mt-5">
-                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+            <div class="list-group mt-5">
+                <div class="list-group-item flex-column align-items-start">
                     <div class="d-flex flex-wrap w-100 justify-content-between">
-                        <h5 class="mb-1">título</h5>
-                        <small>horário</small>
+                        <h5 class="mb-1">Introdução ao Docker</h5>
+                        <p>9h - 9h40</p>
                     </div>
-                    <p class="mb-1">texto</p>
-                    <small>nome do palestrante</small>
-                </a>
-                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <p class="mt-1"><a href="https://www.linkedin.com/in/marcosrehzende/" target="_blank">Marcos
+                            Vinicius Rezende (AMENERGIA)</a></p>
+                    <p class="mb-1">A palestra tem como objetivo de explicar e mostrar na pratica o conceito básico de
+                        funcionamento e instalação do docker.
+                        <ul>
+                            <li>Instalar Docker</li>
+                            <li>Comandos Basicos</li>
+                            <li>Subindo a Primeira Imagem</li>
+                            <li>Portainer, Ambiente gráfico pra Docker</li>
+                        </ul>
+                    </p>
+                </div>
+                <div class="list-group-item flex-column align-items-start">
                     <div class="d-flex flex-wrap w-100 justify-content-between">
-                        <h5 class="mb-1">título</h5>
-                        <small>horário</small>
+                        <h5 class="mb-1">Integrando Docker com Jenkins</h5>
+                        <p>9h40 - 10h20</p>
                     </div>
-                    <p class="mb-1">texto</p>
-                    <small>nome do palestrante</small>
-                </a>
-                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <p class="mt-1"><a href="https://www.linkedin.com/in/marcosrehzende/" target="_blank">Eduardo
+                            Fonseca (CI&T)</a></p>
+                    <p class="mb-1">A palestra irá demonstrar como realizar as configurações necessárias para se
+                        trabalhar com o Docker utilizando a ferramenta de CI Jenkins. Além disso, demonstrará como
+                        criar um Jenkinsfile para execução de containers Docker como slaves</p>
+                    <p><strong>Extra:</strong> demonstrar a utilização da ferramenta Cadvisor (Google) para
+                        monitoramento de containers em tempo real</p>
+                </div>
+                <div class="list-group-item flex-column align-items-start bg-secondary text-white">
+                    <div class="d-flex flex-wrap w-100 justify-content-between ">
+                        <h5 class="mb-1">Coffee Break</h5>
+                        <p>10h20 - 10h40</p>
+                    </div>
+                    <p class="mb-1">Porque ninguém é de ferro <i class="fas fa-coffee"></i></p>
+                </div>
+                <div class="list-group-item flex-column align-items-start">
                     <div class="d-flex flex-wrap w-100 justify-content-between">
-                        <h5 class="mb-1">título</h5>
-                        <small>horário</small>
+                        <h5 class="mb-1">Aplicação na Nuvem com GKE</h5>
+                        <p>10h40 - 11h20</p>
                     </div>
-                    <p class="mb-1">texto</p>
-                    <small>nome do palestrante</small>
-                </a>
-            </div-->
+                    <p class="mt-1"><a href="https://www.linkedin.com/in/marcosrehzende/" target="_blank">Rodolfo
+                            Neto (GFT)</a></p>
+                    <p class="mb-1">
+                        <ul>
+                            <li>Breve fala sobre o que é o Kubernetes;</li>
+                            <li>Breve fala sobre o que é o Google Kubernetes Engine (GKE);</li>
+                            <li>Escolhendo uma aplicação web para migrá-la para a nuvem; </li>
+                            <li>Configurando todo o ambiente do GKE via portal (painel de controle) do Google Cloud;
+                            </li>
+                            <li>Integrando a aplicação com o GKE; </li>
+                            <li>Automatizando as imagens docker da aplicação e construindo automaticamente.</li>
+                        </ul>
+
+                    </p>
+                </div>
+                <div class="list-group-item flex-column align-items-start">
+                    <div class="d-flex flex-wrap w-100 justify-content-between">
+                        <h5 class="mb-1">Utilizando Infraestrutura Ágil com Práticas DevOps</h5>
+                        <p>11h20 - 12h</p>
+                    </div>
+                    <p class="mt-1"><a href="https://www.linkedin.com/in/marcosrehzende/" target="_blank">Gabriel
+                            Policante Araújo (4Linux)</a></p>
+                    <p class="mb-1">Se o desenvolvimento de software é ágil a infraestrutura também deve ser. Já
+                        imaginou uma infraestrutura sendo escalável, automatizada, padronizada e versionada da mesma
+                        forma que acontece com o desenvolvimento de softwares?</p>
+                </div>
+                <div class="list-group-item flex-column align-items-start bg-secondary text-white">
+                    <div class="d-flex flex-wrap w-100 justify-content-between ">
+                        <h5 class="mb-1">Sorteio do Livro</h5>
+                        <p>12h</p>
+                    </div>
+                    <p class="mb-1">Os participantes do evento poderão concorrer a um livro sobre Docker!</p>
+                </div>
+            </div>
         </div>
 
     </article>
 
-    <article id="patrocinio" class="jumbotron jumbotron-fluid">
+    <!-- <article id="patrocinio" class="jumbotron jumbotron-fluid">
         <div class="container">
             <h4 class="display-4"><i class="fas fa-bullhorn"></i> Patrocinadores <span class="badge badge-primary">Em
                     breve</span></h4>
 
-            <!--div class="card-deck mt-5">
+            <div class="card-deck mt-5">
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">patrocinador</h5>
@@ -175,10 +232,10 @@
                         <h5 class="card-title">patrocinador</h5>
                     </div>
                 </div>
-            </div-->
+            </div
         </div>
 
-    </article>
+    </article> -->
 
     <article id="organizadores" class="jumbotron jumbotron-fluid">
         <div class="container">

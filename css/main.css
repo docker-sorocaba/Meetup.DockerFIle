@@ -120,9 +120,10 @@ article:last-child {
     color: #fff;
 }
 
-#inscricoes .card {
-    width: 50% !important;
+.card {
+    padding: 0;
 }
+
 
 .fa-responsive {
     font-size: 5em;
