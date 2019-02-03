@@ -1,6 +1,6 @@
 # [Meetup Docker & Companhia](https://docker-sorocaba.github.io/Meetup.DockerFIle/)
 
-![Imagem com informações principais do meetup Docker & Companhia. Data: em dezembro. Local: Cidade Universitária. Meetup Sorocaba. Docker & Companhia. Informações pelo telefone com Marcos (15) 98808-2972](img/main_publi.png "Imagem com informações principais do meetup Docker & Companhia.")
+![Imagem com informações principais do meetup Docker & Companhia. Data: em dezembro. Local: Cidade Universitária. Meetup Sorocaba. Docker & Companhia. Informações pelo telefone com Marcos (15) 98808-2972](img/panfleto.jpg "Imagem com informações principais do meetup Docker & Companhia.")
 
 [Link da página principal de divulgação do Meetup](https://docker-sorocaba.github.io/Meetup.DockerFIle/)
 
@@ -10,7 +10,7 @@ Eu comecei este grupo para conhecer outros entusiastas das novas tecnologias.  A
 
 **Venha me ajudar nessa jogada, Sorocaba precisa de eventos como esse!**
 
-[Link da página do evento no Sympla](https://www.sympla.com.br/1-meetup-docker--cia-sorocaba__355478)
+[Link da página do evento no Sympla - em Breve](---)
 
 ## Como posso colaborar ?
 
